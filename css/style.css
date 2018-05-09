@@ -1,0 +1,105 @@
+/*Global*/
+body{
+	margin: 0;
+}
+/*.container-fluid{
+	background: white;
+	padding: 0;
+	margin: 0;
+}*/
+.cover{
+	margin: 0;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.blue-text{
+	color: #E8C322;
+}
+/*header - NavBar*/
+.my_navbar{
+	background-color: #E8C322;
+	padding: 0;
+	margin:0;
+}
+.my_navbar li a{
+	color: #ffffff;
+}
+.my_navbar li a:hover{
+	color: #ffffff;
+	background-color: #E8D78B; 
+}
+.fa-bars{
+	color: white;
+	font-size: 30px;
+}
+.navbar-toggle{
+	padding: 5px 5px;
+}
+/*header - Slider*/
+.cover .carousel-inner{
+	height: 400px;
+}
+.carousel-control{
+	background: none;
+}
+@media (max-width: 768px){
+	.cover .carousel-inner{
+		height: auto;
+	}
+}
+/*Noticias*/
+.noticias{
+	text-align: center;
+	padding: 80px 0px 0px 0px;
+	font size: 16px;
+}
+.noticias h2{
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #8e8e8e;
+	font-size: 1.8em;
+	font-weight: lighter;
+}
+.noticias .fa-newspaper{
+	color: #E8C322; 
+	font-size: 2.3em;
+}
+.noticias .thumbnail{
+	border: none;
+	padding: 30px;
+	margin-top: 30px;
+}
+
+.noticias .thumbnail .caption h3{
+	text-align: left;
+}
+.noticias .thumbnail .caption p{
+	color: #9c9c9c;
+	margin: 20px 0px;
+	text-align: left;
+}
+@media (max-width: 768px){
+	.noticias h2{
+		font-size: 1.5em;
+	}
+}
+/*Donacion*/
+.donacion{
+	background-color: #f2f2f2;
+	height: 500px;
+
+}
+/*Footer / Formulario*/
+
+.formulario{
+	padding: 30px 50px;
+}
+.footer_social{
+	background-color: #323031;
+	text-align: center;
+}
+.footer_social .social_icons{
+	color: white;
+	padding: 30px;
+	font-size: 20px;
+}
