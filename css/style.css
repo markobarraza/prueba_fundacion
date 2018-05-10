@@ -2,17 +2,12 @@
 body{
 	margin: 0;
 }
-/*.container-fluid{
-	background: white;
-	padding: 0;
-	margin: 0;
-}*/
 .cover{
 	margin: 0;
 	padding-left: 0px;
 	padding-right: 0px;
 }
-.blue-text{
+.yellow-text{
 	color: #E8C322;
 }
 /*header - NavBar*/
@@ -23,6 +18,7 @@ body{
 }
 .my_navbar li a{
 	color: #ffffff;
+
 }
 .my_navbar li a:hover{
 	color: #ffffff;
@@ -34,6 +30,9 @@ body{
 }
 .navbar-toggle{
 	padding: 5px 5px;
+}
+.logo{
+	width: 300px;
 }
 /*header - Slider*/
 .cover .carousel-inner{
@@ -90,7 +89,9 @@ body{
 
 }
 /*Footer / Formulario*/
-
+.footer{
+	background-color: #f2f2f2;
+}
 .formulario{
 	padding: 30px 50px;
 }
@@ -102,4 +103,48 @@ body{
 	color: white;
 	padding: 30px;
 	font-size: 20px;
+}
+/*Nosotros*/
+/*Section Somos*/
+.somos{
+	font-size: 16px;
+}
+.somos .somos_texto{
+	padding: 50px;
+}
+.somos  h2{
+	text-align: left;
+	font-size: 1.8em;
+	font-weight: lighter;
+	color: #E8C322;
+	letter-spacing: 2px;
+}
+.somos p{
+	font-size: .8em;
+	color: #9c9c9c;
+	line-height: 20px;
+}
+/*organizacion*/
+.organizacion{
+	text-align: center;
+	font-size: 16px;
+	width: 900px;
+	max-width: 100%;
+	padding: 50px;
+}
+.organizacion h2{
+	padding: 30px;
+	font-size: 1.8em;
+	color: #9c9c9c;
+	font-weight: lighter;
+	letter-spacing: 2px;
+}
+.organizacion p{
+	font-size: .8em;
+	color: #9c9c9c;
+}
+@media (max-width: 768px){
+	.organizacion{
+		padding: 10px;
+	}
 }
